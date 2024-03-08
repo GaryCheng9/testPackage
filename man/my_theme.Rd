@@ -7,11 +7,11 @@
 my_theme()
 }
 \value{
-The customized ggplot2 theme
+The customized ggplot2 theme.
 }
 \description{
 A function that returns my customized ggplot2 theme.
 }
 \examples{
-my_theme()
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + my_theme()
 }

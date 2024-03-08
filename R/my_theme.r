@@ -1,10 +1,10 @@
 #' A function that returns my customized ggplot2 theme.
 #'
-#' @return The customized ggplot2 theme
+#' @return The customized ggplot2 theme.
 #' @export
 #'
 #' @examples
-#' my_theme()
+#' ggplot(mtcars, aes(wt, mpg)) + geom_point() + my_theme()
 my_theme <- function() {
   result <- theme(
     plot.background = element_rect(fill = "#B6D0E2"),
