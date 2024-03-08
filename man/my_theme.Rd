@@ -2,7 +2,7 @@
 % Please edit documentation in R/my_theme.r
 \name{my_theme}
 \alias{my_theme}
-\title{A function that returns my customized ggplot2 theme.}
+\title{A function that returns the customized ggplot2 theme.}
 \usage{
 my_theme()
 }
@@ -10,8 +10,8 @@ my_theme()
 The customized ggplot2 theme.
 }
 \description{
-A function that returns my customized ggplot2 theme.
+A function that returns the customized ggplot2 theme.
 }
 \examples{
-ggplot(mtcars, aes(wt, mpg)) + geom_point() + my_theme()
+ggplot2::ggplot(mtcars, ggplot2::aes(wt, mpg)) + ggplot2::geom_point() + my_theme()
 }
