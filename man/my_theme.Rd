@@ -2,15 +2,15 @@
 % Please edit documentation in R/my_theme.r
 \name{my_theme}
 \alias{my_theme}
-\title{A function to estimate beta for a linear regression.}
+\title{A function that returns my customized ggplot2 theme.}
 \usage{
 my_theme()
 }
 \value{
-A vector of k variables.
+The customized ggplot2 theme
 }
 \description{
-A function to estimate beta for a linear regression.
+A function that returns my customized ggplot2 theme.
 }
 \examples{
 my_theme()

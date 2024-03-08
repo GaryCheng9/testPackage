@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimate_beta.r
 \name{estimate_beta}
 \alias{estimate_beta}
-\title{A function to estimate beta for a linear regression.}
+\title{A function that estimates beta for a linear regression.}
 \usage{
 estimate_beta(y, X)
 }
@@ -15,7 +15,7 @@ estimate_beta(y, X)
 A vector of k variables.
 }
 \description{
-A function to estimate beta for a linear regression.
+A function that estimates beta for a linear regression.
 }
 \examples{
 estimate_beta(c(1, 2, 3), matrix(data = 1:6, ncol = 2))

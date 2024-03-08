@@ -1,6 +1,6 @@
-#' A function to estimate beta for a linear regression.
+#' A function that returns my customized ggplot2 theme.
 #'
-#' @return A vector of k variables.
+#' @return The customized ggplot2 theme
 #' @export
 #'
 #' @examples

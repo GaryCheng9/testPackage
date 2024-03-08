@@ -1,4 +1,4 @@
-#' A function to estimate beta for a linear regression.
+#' A function that estimates beta for a linear regression.
 #'
 #' @param y A vector of n observations.
 #' @param X A nxk matrix of k variables.
